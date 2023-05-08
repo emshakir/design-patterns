@@ -11,11 +11,11 @@
 
 ## Strategy Pattern
 
-> 
+&nbsp;
 > The **Strategy Pattern** defines a family of algorithms, encapsulates each
 > one, and makes them interchangeable. Strategy lets the algorithm vary
 > independently from clients that use it.
-> 
+&nbsp;
 
 * Take what varies and **encapsulate** it so it won’t affect the rest of your code.
 * Fewer unintended consequences from code changes and more flexibility in your
