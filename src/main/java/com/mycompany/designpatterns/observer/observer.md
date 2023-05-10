@@ -24,7 +24,8 @@
 ## The dark side of java.util.Observable
 
 ### java.util.Observable violate our OO design principle,
-    __Programming to interface not implementation__
+
+> Programming to interface not implementation
 
 Observable is a class, not an interface,and worse, it doesn’t even implement 
 an interface. Unfortunately, the java.util.Observable implementation has a 
@@ -40,4 +41,6 @@ doesn’t provide some utility, but there are some large potholes to watch out f
   what? Well, this means you can’t call setChanged() unless you’ve subclassed
   Observable. This means you can’t even create an instance of the Observable
   class and compose it with your own objects, you have to subclass. The design
-  violates a second design principle here...__favor composition over inheritance.__  
+  violates a second design principle here...
+
+> favor composition over inheritance
