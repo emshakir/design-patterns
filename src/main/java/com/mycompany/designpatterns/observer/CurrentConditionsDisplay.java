@@ -21,7 +21,7 @@ public class CurrentConditionsDisplay implements Observer, DisplayElement {
     @Override
     public void display() {
         System.out.println("Current COnditions : " + temperature
-                + "F degrees and " + humidity + "% humidity");
+                + " F degrees and " + humidity + "% humidity");
     }
 
 }
