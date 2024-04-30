@@ -9,14 +9,22 @@
 
 # DESIGN PATTERNS
 
+## Structural Patterns
+
+### Adapter Pattern
+
+> Converts the interface of a class into another interface clients expect
+Adapter lets classes work together that couldn't otherwise because of
+incompatible interfaces. Also known as **Wrapper Patter**
+
 ## Strategy Pattern
 
-> The **Strategy Pattern** defines a family of algorithms, encapsulates each
-> one, and makes them interchangeable. Strategy lets the algorithm vary
-> independently from clients that use it.
+> The **Strategy Pattern** defines a family of algorithms, encapsulates
+each one, and makes them interchangeable. Strategy lets the algorithm 
+vary independently on clients that use it.
 
-* Take what varies and **encapsulate** it so it won’t affect the rest of your code.
-* Fewer unintended consequences from code changes and more flexibility in your
+* Take what varies and **encapsulate** it so that it won’t affect the rest of your code.
+* Fewer unintended consequences on code changes and more flexibility in your
   systems.
 
 In other words, if you’ve got some aspect of your code that is changing, say
